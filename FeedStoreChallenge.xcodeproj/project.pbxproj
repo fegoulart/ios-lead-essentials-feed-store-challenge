@@ -109,10 +109,8 @@
 			isa = PBXGroup;
 			children = (
 				56370D2B26B70B7D00604089 /* Infrastructure */,
-				08CB21E1261638BA00751C29 /* Helpers */,
 				08CE2BA72285BCC600183A1B /* LocalFeedImage.swift */,
 				08CE2BA52285BCB600183A1B /* FeedStore.swift */,
-				08F35C6E261612AE00AFE277 /* CoreDataFeedStore.swift */,
 				08CE2B8F2285BBD100183A1B /* Info.plist */,
 			);
 			path = FeedStoreChallenge;
@@ -154,7 +152,9 @@
 		56370D2B26B70B7D00604089 /* Infrastructure */ = {
 			isa = PBXGroup;
 			children = (
+				08CB21E1261638BA00751C29 /* Helpers */,
 				56370D2726B70AC700604089 /* FeedStore.xcdatamodeld */,
+				08F35C6E261612AE00AFE277 /* CoreDataFeedStore.swift */,
 				56370D2C26B70D8800604089 /* ManagedFeedImage.swift */,
 				56370D2F26B70E0A00604089 /* ManagedCache.swift */,
 			);
